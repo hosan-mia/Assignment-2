@@ -1,0 +1,608 @@
+/* maine font for website Mulish */
+@import url("https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800;900&family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Mulish", sans-serif;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+header,
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+nav {
+  width: 100%;
+  height: 150px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+label {
+  color: #131318;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+label i,
+.travel {
+  color: #ff5400;
+  font-family: Mulish;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+nav ul li {
+  display: inline-block;
+  line-height: normal;
+  margin-right: 10px;
+}
+nav ul li a {
+  color: var(#424247);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding: 12px 15px;
+}
+nav ul li a:hover {
+  color: #ff5400;
+}
+.active,
+:hover.active {
+  background-color: #ff5400;
+  color: antiquewhite;
+  border-radius: 10px;
+}
+#manu-icon {
+  color: #ff5400;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+/* nav banner section setyle  */
+.banner {
+  width: 95%;
+  position: relative;
+  text-align: center;
+}
+.banner img {
+  width: 100%;
+  margin-left: 22px;
+  position: relative;
+  /* background: linear-gradient(
+    180deg,
+    rgba(19, 19, 24, 0.8) 0%,
+    rgba(19, 19, 24, 0) 100%
+  ); */
+  border-radius: 5px;
+  height: 500px;
+}
+
+.banner-text {
+  position: absolute;
+  top: 25%;
+  text-align: center;
+}
+.banner-text h2 {
+  color: #fff;
+  font-size: 62px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.banner-text-paragaref {
+  /* width: 675px; */
+  padding: 30px 320px;
+  color: #fff;
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+.input-section {
+  display: inline-flex;
+  padding: 16px;
+  gap: 24px;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.3);
+}
+.fast-input-var,
+#cars {
+  padding: 10px 8px;
+  border-radius: 8px;
+  background: #fff;
+  border: none;
+}
+#banner-btn {
+  background-color: #ff5400;
+  padding: 10px 12px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+#banner-btn-spen {
+  padding-left: 10px;
+}
+
+/* Our-Populor-Tours style section  */
+.our-Populor-Tours {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 22px;
+  gap: 80px;
+  margin-top: 50px;
+}
+.Our-Populor-Tours-text h2 {
+  color: #131318;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 30px;
+}
+.Our-Populor-Tours-text p {
+  color: rgba(19, 19, 24, 0.7);
+  width: 577px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  margin-bottom: 22px;
+}
+.hand-icon {
+  padding-left: 15px;
+}
+.Our-Populor-Tours-img img {
+  width: 95%;
+  height: 500px;
+}
+
+/* image-section style  */
+
+.image-section {
+  margin-top: 50px;
+}
+.image-gallery-Text-title h3 {
+  color: #131318;
+  text-align: center;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+.image-gallery-Text-title p {
+  color: rgba(19, 19, 24, 0.7);
+  width: 657px;
+
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 25px auto;
+}
+
+/* image-gallery style section  */
+
+.image-gallery {
+  padding: 0 30px;
+}
+.fast-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.img-laft-sait,
+.img-medeil-sait,
+.img-right-sait {
+  position: relative;
+}
+.img-laft-sait img,
+.img-medeil-sait img,
+.img-right-sait img {
+  width: 100%;
+  height: 300px;
+}
+.img-laft-sait h3,
+.img-medeil-sait h3,
+.img-right-sait h3 {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+  align-items: center;
+  color: #fff;
+  font-size: 20px;
+}
+
+.sacend-row {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  gap: 20px;
+}
+.thard-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+/* Why-Choose-Us-cord seyle section  */
+.Why-Choose-Us {
+  margin: 50px;
+}
+.Why-Choose-Us-cord {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.fast-row-cord {
+  background: rgba(251, 181, 99, 0.05);
+}
+.fast-row-second-cord {
+  background: rgba(41, 206, 246, 0.05);
+}
+.secend-row-cord {
+  margin-left: 50%;
+  background: rgba(233, 68, 68, 0.05);
+}
+#cord {
+  width: 590px;
+  border: 8px;
+  padding: 14px 20px;
+  border: 1px solid;
+  border-radius: 16px;
+  border: 3px solid rgba(17, 199, 245, 0.2);
+  margin-bottom: 40px;
+}
+
+#cord i {
+  width: 64px;
+  height: 50px;
+  padding-top: 30px;
+  color: #ff5400;
+  font-size: 40px;
+}
+#cord h3 {
+  padding-top: 25px;
+  padding-bottom: 16px;
+  color: #131318;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+#cord p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  padding-bottom: 26px;
+}
+
+/* banner-cord style section */
+
+.banner-cord img {
+  width: 90%;
+  height: 450px;
+  position: absolute;
+}
+.banner-cord-1 {
+  position: relative;
+  top: 58px;
+  left: 55%;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin-bottom: 150px;
+}
+.banner-cord-2 {
+  margin-bottom: 150px;
+  position: relative;
+  top: 58px;
+  left: 10%;
+  background-color: #fff;
+  width: 500px;
+  border-radius: 15px;
+  padding: 20px 20px;
+  margin-bottom: 150px;
+}
+.banner-cord-2 h3,
+.banner-cord-1 h3 {
+  color: #131318;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding: 15px 0;
+}
+.banner-cord-2 p,
+.banner-cord-1 p {
+  color: #5a5a5d;
+  width: 452px;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-bottom: 20px;
+}
+#cord-icon {
+  width: 24px;
+  height: 24px;
+  color: #ff5400;
+  padding-right: 20px;
+}
+.price {
+  color: #ff5400;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  padding-bottom: 28px;
+}
+.banner-cord-2 .btn,
+.banner-cord-1 .btn {
+  width: 150px;
+  height: 52px;
+  border-radius: 8px;
+  background: #ff5400;
+  border: none;
+  color: #fff;
+}
+/* See-All-Packages section style  */
+.See-All-Packages {
+  margin-bottom: 50px;
+}
+.button {
+  margin-left: 50%;
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #ff5400;
+  padding: 15px 24px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+}
+
+.See-All-Packages-last-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px;
+  margin-bottom: 50px;
+}
+.last-img {
+  position: relative;
+}
+
+.sele-marla {
+  bottom: 4px;
+  right: 18px;
+  background-color: #ff5400;
+  padding: 25px 30px;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 25px;
+  width: 250px;
+  text-align: center;
+  position: absolute;
+}
+.sele-marla h5 {
+  font-size: 20px;
+}
+.Newsletter {
+  border: 1px solid lightgray;
+  width: 70%;
+  padding: 20px 40px;
+  border-radius: 15px;
+}
+.Newsletter h3 {
+  color: #131318;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+  margin-bottom: 10px;
+}
+.Newsletter p {
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 30px;
+  width: 330px;
+}
+.Newsletter hr {
+  width: 400px;
+  margin-bottom: 30px;
+}
+.Newsletter input {
+  display: block;
+  padding: 15px 120px;
+  border-radius: 10px;
+  border: 1px solid lightblue;
+  margin-bottom: 30px;
+}
+#Subscribe-button {
+  font-size: 17px;
+  padding: 15px 160px;
+}
+@media screen and (max-width: 600px) {
+  header {
+    padding: 1-px;
+  }
+  nav i,
+  .logo,
+  .travel {
+    font-size: 32px;
+  }
+  nav ul {
+    display: none;
+  }
+  nav ul li a {
+    font-size: 16px;
+  }
+  #manu-icon {
+    display: block;
+    font-size: 35px;
+  }
+
+  /* banner mediya queray style  */
+  .banner {
+    height: 500px;
+  }
+  .banner-text {
+    position: relative;
+    top: -95%;
+  }
+  .banner-text h2 {
+    font-size: 32px;
+    color: #fff;
+  }
+  .banner-text-paragaref {
+    padding: 5px 100px;
+    line-height: 20px;
+  }
+  .input-section {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1fr 1fr);
+    margin-left: 100px;
+  }
+  .fast-input-var,
+  #cars {
+    padding-left: 15px;
+    padding-right: 180px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #banner-btn {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 18px;
+  }
+  #banner-btn-spen {
+    padding-left: 10px;
+  }
+
+  /* media queray style  */
+  .our-Populor-Tours {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 12px;
+    gap: 40px;
+  }
+  .Our-Populor-Tours-text h2 {
+    font-size: 20px;
+  }
+  .Our-Populor-Tours-text p {
+    width: 100%;
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 15px;
+  }
+  .hand-icon {
+    padding-left: 10px;
+  }
+  .Our-Populor-Tours-img img {
+    width: 95%;
+    height: 400px;
+  }
+  .image-gallery-Text-title h3 {
+    font-size: 25px;
+  }
+  .image-gallery-Text-title p {
+    width: 400px;
+  }
+  .fast-row,
+  .sacend-row,
+  .thard-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Why-Choose-Us-cord {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  #cord {
+    width: 500px;
+    border: 8px;
+    padding: 10px 10px;
+    border-radius: 16px;
+    border: 4px solid rgba(17, 199, 245, 0.2);
+  }
+  .secend-row-cord {
+    margin-left: 0;
+  }
+  #cord i {
+    width: 64px;
+    height: 45px;
+    padding-top: 25px;
+    font-size: 35px;
+  }
+  #cord h3 {
+    padding-top: 20px;
+    padding-bottom: 14px;
+  }
+  #cord p {
+    color: #5a5a5d;
+    font-size: 16px;
+    font-style: normal;
+    width: 400px;
+  }
+  .banner-cord img {
+    margin-left: 50px;
+    height: 600px;
+    width: 500px;
+  }
+  .banner-cord-1 {
+    top: 180px;
+    left: 12%;
+    width: 450px;
+    padding: 30px 15px;
+    margin-bottom: 300px;
+  }
+  .banner-cord-2 {
+    top: 180px;
+    left: 12%;
+    width: 450px;
+    padding: 30px 15px;
+    margin-bottom: 300px;
+  }
+  .See-All-Packages-last-row {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 50px;
+  }
+
+  .last-img img {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .Newsletter {
+    width: 90%;
+    margin-left: 30px;
+  }
+  .button {
+    margin-left: 36%;
+    margin-bottom: 50px;
+  }
+  .sele-marla {
+    bottom: 2px;
+    right: 30px;
+  }
+}
