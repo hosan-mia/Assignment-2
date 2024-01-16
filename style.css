@@ -11,7 +11,8 @@
 }
 
 header,
-main {
+main,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -470,6 +471,7 @@ nav ul li a:hover {
   width: 70%;
   padding: 20px 40px;
   border-radius: 15px;
+  margin-left: 100px;
 }
 .Newsletter h3 {
   color: #131318;
@@ -503,6 +505,36 @@ nav ul li a:hover {
   font-size: 17px;
   padding: 15px 160px;
 }
+
+footer {
+  height: 400px;
+  background-color: lightgray;
+  text-align: center;
+  padding-top: 100px;
+}
+footer p {
+  width: 769px;
+  margin: 0 auto;
+  color: #5a5a5d;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 30px 0;
+}
+.fotear-font-icon {
+  padding: 20px 0px;
+}
+footer hr {
+  width: 1200px;
+  margin: 0 auto;
+}
+.fotear-font-icon i {
+  font-size: 20px;
+  color: #ff5400;
+  margin-left: 20px;
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 1-px;
@@ -690,5 +722,9 @@ nav ul li a:hover {
   .img-text-last {
     top: 40%;
     left: 150px;
+  }
+  footer p {
+    width: 500px;
+    margin: 0 auto;
   }
 }
