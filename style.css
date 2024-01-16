@@ -365,6 +365,20 @@ nav ul li a:hover {
   border: none;
   color: #fff;
 }
+
+/* banglades section style  */
+.bangladesh-travel-shot {
+  width: 90%;
+  background-color: lightgray;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
 /* .See-All-Packages-Fast-row */
 
 .See-All-Packages-Fast-row {
@@ -593,6 +607,11 @@ footer hr {
     padding-left: 10px;
   }
 
+  .bangladesh-travel-shot {
+    background-color: #fff;
+    margin-left: 100px;
+    grid-template-columns: repeat(1, 1fr);
+  }
   /* media queray style  */
   .our-Populor-Tours {
     grid-template-columns: repeat(1, 1fr);
