@@ -364,12 +364,70 @@ nav ul li a:hover {
   border: none;
   color: #fff;
 }
+/* .See-All-Packages-Fast-row */
+
+.See-All-Packages-Fast-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-bottom: 50px;
+}
+.Packages-text h2 {
+  color: #131318;
+  width: 445px;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 60px;
+}
+.Packages-text p {
+  margin-top: 24px;
+  margin-bottom: 15px;
+  color: #5a5a5d;
+  width: 530px;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.Packages-text ul li {
+  width: 518px;
+  color: #131318;
+  font-family: Mulish;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+.Packages-text .btn {
+  font-size: 18px;
+  padding: 18px 50px;
+}
+.packages-img {
+  position: relative;
+  /* background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%); */
+}
+.packages-img img {
+  width: 95%;
+  height: 400px;
+  /* position: relative; */
+}
+
+.img-text-last {
+  width: 400px;
+  position: absolute;
+  font-size: 30px;
+  top: 40%;
+  left: 200px;
+  color: #fff;
+}
 /* See-All-Packages section style  */
 .See-All-Packages {
   margin-bottom: 50px;
 }
 .button {
-  margin-left: 50%;
+  margin-left: 45%;
   margin-bottom: 50px;
 }
 
@@ -604,5 +662,33 @@ nav ul li a:hover {
   .sele-marla {
     bottom: 2px;
     right: 30px;
+  }
+  .See-All-Packages-Fast-row {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .Packages-text h2 {
+    width: 500px;
+    margin: 0 auto;
+  }
+
+  .Packages-text p,
+  .Packages-text ul li {
+    width: 500px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  .Packages-text .btn {
+    margin-left: 200px;
+    margin-bottom: 30px;
+  }
+  .packages-img img {
+    width: 90%;
+    height: 400px;
+    margin-left: 22px;
+  }
+
+  .img-text-last {
+    top: 40%;
+    left: 150px;
   }
 }
